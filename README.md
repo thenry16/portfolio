@@ -1,4 +1,4 @@
-lab6
+portfolio
 ====
 
-Lab 6: FB Login and AJAX
+Human-Computer Interaction projects
