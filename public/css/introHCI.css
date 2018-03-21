@@ -66,7 +66,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 40px;
+    padding: 14px 80px;
     text-decoration: none;
 }
 
@@ -75,7 +75,14 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color:   #ffdb4d;
+    background-color: #1f2328;
     color:white;
     font-weight: bold;
 }
+
+/*Project images*/
+.project-img {
+     height:30vh;
+     width:30vw;
+}
+
