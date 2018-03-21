@@ -1,4 +1,9 @@
 /* applies to anything of class "example-class-selector" */
+
+.container{
+     font-family: Helvetica, sans-serif;
+}
+
 .example-class-selector {
 	margin-top: 2em;
 }
@@ -16,7 +21,7 @@
 
 .jumbotron:after {
      content:"";
-     background: url("../images/jumbotron.jpeg");
+     background: url("../images/nympheas.jpeg");
      opacity: 0.2;
      top: 0;
      left: 0;
@@ -42,4 +47,35 @@
      width: 200px;
      margin: 10px 10px 10px 0px;
      float: left;
+}
+
+/*Navigation bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b2444;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ebebe0;
+}
+
+.active {
+    background-color:   #ffdb4d;
+    color:white;
+    font-weight: bold;
 }
