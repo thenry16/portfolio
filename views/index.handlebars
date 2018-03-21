@@ -23,18 +23,22 @@
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
 		<div class="jumbotron">
-			<h1 id="name">Scott Klemmer</h1>
-			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
-			<p class="facebookLogin">Please login through Facebook</p>
-			<fb:login-button scope="public_profile,email" id="loginButton" onlogin="checkLoginState();">
-			</fb:login-button>
+			<h1 id="name">Hi, I'm Tiphaine Henry</h1>
+			<p>4th year Human-Computer Interaction student &middot;</p>
 		</div>
 
-		<div id="facebookPhoto" class="profile">
-			<h3>Profile Photo</h3>
-			<img id="photo" class='img-responsive' src="http://hci.stanford.edu/courses/cs547/Resources/Pictures/klemmer_grad.jpg" />
-		</div>
-
+	<div style="position:relative; top:-5vh">
+		<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Home</a></li>
+		      <li><a href="#">Project 1</a></li>
+		      <li><a href="#">Project 2</a></li>
+		      <li><a href="#">Resume</a></li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
 		<h3>Projects</h3>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
@@ -54,8 +58,6 @@
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/introHCI.js"></script>
-	{{> facebook}}
-	<script src="/js/facebook.js"></script>
 
 </body>
 </html>
