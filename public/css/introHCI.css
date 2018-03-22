@@ -1,17 +1,5 @@
-/* applies to anything of class "example-class-selector" */
-
 .container{
      font-family: Helvetica, sans-serif;
-}
-
-.example-class-selector {
-	margin-top: 2em;
-}
-
-/* applies to any <p> descendants of an element of class "example-class-selector" */
-.example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #CC00AA;
 }
 
 .jumbotron {
@@ -35,19 +23,60 @@
      color: #6e6e6e;
 }
 
-.project a {
+/*Subheadings*/
+.jumbotronProjects {
+    position: relative;
+    background: none;
+    padding: 2px;
+}
+
+.jumbotronProjects:after {
+     content:"";
+     background: url("../images/nympheas2.jpg");
+     opacity: 0.2;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;   
+}
+
+.jumbotronProjects p {
+    color: #6e6e6e;
+    font-size: 2vw;
+}
+
+
+.row {
+    padding-top: 2vh;
+    position:relative; 
+    left:1.2vw
+}
+
+
+/*Styling the projects div*/
+.projects{
+    margin-top: 8vh;
+}
+
+.projects a {
      text-align: center;
 }
 
-.project .details {
-     overflow: hidden;
+.projects .details {
+    width:100vw;
+    margin-top: 10px;
 }
 
-.project .details .detailsImage {
-     width: 200px;
-     margin: 10px 10px 10px 0px;
+/*Project images*/
+.project-img {
+     width: 30vw;
+     margin: 0px 40px 10px 0;
      float: left;
+     cursor: pointer;
 }
+
 
 /*Navigation bar*/
 ul {
@@ -66,7 +95,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 80px;
+    padding: 14px 60px;
     text-decoration: none;
 }
 
@@ -78,11 +107,5 @@ li a:hover:not(.active) {
     background-color: #1f2328;
     color:white;
     font-weight: bold;
-}
-
-/*Project images*/
-.project-img {
-     height:30vh;
-     width:30vw;
 }
 
